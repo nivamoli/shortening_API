@@ -1,0 +1,79 @@
+:root {
+  --font-family: 'Poppins', sans-serif;
+  --font-size: 18px;
+
+  /* colors */
+  --azul: hsl(180, 66%, 49%);
+  --morado:  hsl(257, 27%, 26%) ;
+  --red:hsl(0, 87%, 67%);
+  --gris:  hsl(0, 0%, 75%);
+  --azul-oscuro: hsl(255, 11%, 22%);  
+  --morado-oscuro: hsl(260, 8%, 14%);
+  --gris-violeta: hsl(257, 7%, 63%);
+  --blanco: #FFF;
+  --negro: #000;
+
+
+}
+
+
+html.html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: var(--font-family);
+  overflow-x: hidden;
+}
+
+/*header*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 20px;
+}
+
+/*main*/
+
+.main {
+  padding: 0 30px;
+  text-align: center;
+}
+
+.main__img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.main-info--title {
+  font-size: calc(var(--font-size) + 15px);
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+.main-info--pgraph {
+  color: var(--gris-violeta);
+}
+
+.main-info--button {
+  padding: 10px 35px; 
+  background-color: var(--azul);
+  border: none;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  font-family: var(--font-family);
+  color: var(--blanco);
+  font-size: var(--font-size);
+}
+
+
