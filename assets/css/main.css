@@ -90,6 +90,7 @@ html.html {
   background-color: var(--azul-oscuro);
   height: 150px;
   padding: 90px 40px;
+  margin-bottom: 100px;
 }
 
 .form-shorten-input {
