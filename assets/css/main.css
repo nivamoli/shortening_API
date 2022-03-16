@@ -118,3 +118,65 @@ html.html {
   font-size: var(--font-size);
   color: var(--blanco);
 }
+
+/* section stadistics */ 
+  .statistics {
+    text-align: center;
+    padding: 0 40px;
+    height: 1450px;
+    background-color: aliceblue;
+  }
+
+  .statistics__title {
+    margin-bottom: 20px;
+    padding-top: 50px;
+  }
+
+  .statistics__pgraph {
+    margin-bottom: 30px;
+  }
+
+  .statistics-cards {
+    margin-top: 50px;
+  }
+  .statistics-cards--img {
+    background-color: var(--azul-oscuro);
+    margin-top: 20px;
+    padding: 30px 30px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+  }
+
+  .statistics-cards-container {
+    background-color: white;
+    margin: 30px 0px;
+    border-radius: 10px;
+
+  }
+
+  .statistics-cards-container__title {
+    color: var(--azul-oscuro);
+  }
+
+  .statistics-cards-container__pgraph {
+    color: var(--gris);
+    padding-bottom: 30px;
+    padding: 30px 30px;
+
+}
+
+
+.boost {
+  height: 200px;
+  padding-top: 50px;
+  background-color: var(--morado);
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+}
+
+.boost__title {
+  color: white;
+  font-size: calc(var(--font-size) + 10px);
+}
