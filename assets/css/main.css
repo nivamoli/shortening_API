@@ -167,8 +167,7 @@ html.html {
 
 
 .boost {
-  height: 200px;
-  padding-top: 50px;
+  height: 300px;
   background-color: var(--morado);
   display: flex;
   flex-direction: column; 
@@ -178,5 +177,16 @@ html.html {
 
 .boost__title {
   color: white;
-  font-size: calc(var(--font-size) + 10px);
+  font-size: calc(var(--font-size) + 8px);
+}
+
+.boost__button {
+  padding: 20px 50px;
+  border-radius: 50px;
+  margin-top: 15px;
+  background-color: var(--azul);
+  border: none;
+  color: white;
+  font-size: var(--font-size);
+  font-weight: bold;
 }
